@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <script>
+        // 正方形
+        var str = "";
+        // 外层循环，控制输出次数
+        // for (var j = 0; j < 10;j++) {
+        //     // 内层循环，控制每一行输出的*的个数
+        //     for (var i = 0; i < 10;i++){
+        //         str +="*";
+        //     }
+
+        //     str +="\n";
+        // }
+        // console.log(str);
+        // 
+        // 
+        // for (var j = 0; j < 10; j++) {
+        //     for (var i = 0; i < 10; i++) {
+        //     str += '* ';
+        //    }
+        //    str += '\n';
+        // }
+
+        // console.log(str)
+        //三角形
+        //倒三角
+        // var str = "";
+        // for (var j = 0; j < 10;j++) {
+        //     for (var i = j; i < 10;i++){
+        //         str+="* ";
+        //     }
+
+        //     str +="\n";
+        // }
+        // console.log(str);
+        for (var i = 0; i < 10; i++) {
+            for (var j = i; j < 10; j++) {
+                str += '* ';
+            }
+            str += '\n';
+        }
+        console.log(str);
+        // 正三角
+        for (var i = 1; i <=10; i++) {
+            for (var j = 0; j < i; j++) {
+                str += '* ';
+            }
+            str += '\n';
+            
+        }
+        console.log('==================');
+        console.log(str);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
